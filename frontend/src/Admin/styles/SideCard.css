@@ -1,0 +1,43 @@
+.stat-card {
+  flex: 1;
+  background: white;
+  width: 190px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat-card-title {
+  font-size: 20px;
+  color: #666;
+}
+
+.stat-card-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat-card-change {
+  font-size: 14px;
+}
+
+.stat-card-change.increase {
+  color: green;
+}
+
+.stat-card-change.decrease {
+  color: red;
+}
+
+.stat-card-change.neutral {
+  color: gray;
+}

@@ -1,0 +1,68 @@
+/* src/components/SidebarLayout.css */
+
+.layout-container {
+  display: flex;
+  /* position: relative; */
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #282c34;
+  color: #fff;
+}
+
+.main-content {
+  /* float:1; */
+  /* flex: 1; */
+  width: 100%;
+  background-color: #d7d7d7;
+  overflow-y: auto;
+  margin-left: 200px;
+}
+
+
+.logout-link {
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.logout-link:hover {
+  background-color: #282c34;
+  color: #fff;
+}

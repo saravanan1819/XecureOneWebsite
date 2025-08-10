@@ -1,0 +1,83 @@
+
+.messages-list {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.reply-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.reply-popup {
+  background: white;
+  padding: 20px;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.reply-popup textarea {
+  background-color: #dddddd70;
+  color: #000000;
+  font-size: 19px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.cancel-btn {
+  background-color: #ff2200;
+}
+
+.send-btn {
+  background-color: #2b8501;
+  width: 10%;
+  border-radius: 10px;
+  color: white;
+}
+
+.messages-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-replied {
+  color: rgb(5, 164, 47);
+}
+
+.view-replied:hover {
+  cursor: pointer;
+}
+
+.reply-btn {
+  margin-top: 20px;
+  background-color: #2b8501;
+  color: white;
+  align-items: center;
+  /* height: 50px; */
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}

@@ -1,0 +1,48 @@
+# node_modules/
+# Scripts/
+# utils\Credentials.json
+# .env
+
+
+# Node modules
+node_modules/
+Scripts/
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Google API credentials
+credentials.json
+service-account.json
+key.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional: build directories
+dist/
+build/
+
+# Optional: test coverage
+coverage/

@@ -1,0 +1,47 @@
+.messages-page {
+  padding: 20px;
+  width: 1200px;
+  color: #000000;
+}
+
+
+
+.message-card {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+
+
+.popup-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.messages-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-replied{
+ color: rgb(5, 164, 47);
+}
+
+.view-replied:hover{
+  cursor: pointer;
+}
+
+.message-status{
+ font-size: 15px;
+}
+

@@ -1,0 +1,78 @@
+.new-meetings-page {
+  padding: 15px 80px;
+  color: #000000;
+}
+
+.meeting-list {
+  list-style: none;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ .send-time {
+   font-weight: 600;
+}
+.accept-btn,
+.reject-btn,
+.reschedule-btn {
+  background-color: #e7e7e7;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000000d0;
+  border: 0.5px solid #555555d0;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.accept-btn:hover {
+  background-color: #12c106;
+  border: none;
+  color: #ffffff;
+}
+.reject-btn:hover {
+  background-color: #d20505;
+  border: none;
+  color: #ffffff;
+}
+.reschedule-btn:hover {
+  background-color: #f0ad4e;
+  border: none;
+  color: #ffffff;
+}
+
+.meeting-card {
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+.card-left{
+max-width: 300px;
+}
+.card-left p{
+  padding: 7px 0px;
+}
+.card-left,
+.card-right {
+  flex: 1;
+}
+.card-right p
+{
+   line-height: 25px;
+   width: 85%;
+}
+.message-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+}
+
