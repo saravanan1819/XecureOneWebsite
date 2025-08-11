@@ -15,10 +15,10 @@ import { GoPlus, GoX } from "react-icons/go";
 import GetSecured from "../Components/GetSecured";
 import Scrollbar from "smooth-scrollbar";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import cybersecurity from '../assets/CyberSecurity.gif'
 
 gsap.registerPlugin(ScrollTrigger);
 // gsap.registerPlugin(CustomEase);
-
 const testimonials = [
   {
     name: "Name 1",
@@ -748,8 +748,9 @@ function HomePage() {
             <div className="secondsec-left">
               <div className="outside-box">
                 <div className="circle-bg-6"></div>
-
-                <div className="inside-box"></div>
+                <div className="inside-box">
+                    <img src={cybersecurity}></img>
+                </div>
               </div>
             </div>
             <div className="secondsec-right">

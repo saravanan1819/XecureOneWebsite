@@ -437,6 +437,12 @@
   backdrop-filter: blur(35px);
   border-radius: 20px;
 }
+.hp-second-section .secondsec-left .inside-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+}
 .hp-second-section .secondsec-right {
   width: 100%;
   overflow: hidden;

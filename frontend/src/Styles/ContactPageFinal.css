@@ -25,9 +25,6 @@
   z-index: -900;
 }
 .cp-first-section {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
   padding: 0px 8rem;
   width: 100%;
   position: relative;
@@ -35,6 +32,16 @@
   padding-top: 150px;
   padding-bottom: 5.5rem;
   overflow: hidden;
+}
+.cp-first-section .first-section-gif {
+  position: absolute;
+  right: 2rem;
+  bottom: -100px;
+  z-index: -5;
+}
+.cp-first-section .first-section-gif img {
+  width: 750px;
+  opacity: 0.5;
 }
 .cp-second-section,
 .cp-third-section {
@@ -338,7 +345,7 @@
   .cp-third-section {
     padding: 0px 3.5rem;
   }
-   .contact-right-container .contact-right {
+  .contact-right-container .contact-right {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -347,7 +354,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-   .cp-first-section {
+  .cp-first-section {
     padding: 0px 3rem;
     padding-top: 100px;
     padding-bottom: 5.5rem;
@@ -407,7 +414,7 @@
   }
 }
 @media screen and (max-width: 400px) {
-   .cp-first-section {
+  .cp-first-section {
     padding: 0px 2.5rem;
     padding-top: 100px;
     padding-bottom: 5.5rem;

@@ -8,7 +8,7 @@ import GetSecured from "../Components/GetSecured";
 import Footer from "../Components/Footer";
 import Transition from "./Transition";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import contactpagegif from '../assets/ContactPage.gif';
 // gsap.registerPlugin(CustomEase);
 gsap.registerPlugin(ScrollTrigger);
 
@@ -186,6 +186,9 @@ function ContactPageFinal() {
             <div className="btn">
               {/* <div className="let-connect-btn">Let`s Connect</div> */}
               <div className="our-service-btn">Our Services</div>
+            </div>
+            <div className="first-section-gif">
+                <img src={contactpagegif}/>
             </div>
           </div>
 
